@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Result</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #89f7fe, #66a6ff);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #ff4b4b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>📍 {{city}}</h2>
+
+    <p>🌡 Temperature: <b>{{temp}} °C</b></p>
+    <p>💧 Humidity: <b>{{humidity}} %</b></p>
+
+    <h3>📊 Prediction</h3>
+    <p>{{prediction}} °C</p>
+
+    <h3>📈 Insights</h3>
+    <p>Avg Temp: {{avg_temp}}</p>
+    <p>Max Temp: {{max_temp}}</p>
+    <p>{{insight}}</p>
+
+    <h3>📉 Trend</h3>
+    <img src="/static/temp_plot.png" width="100%">
+
+    <br>
+    <a href="/" class="btn">⬅ Back</a>
+</div>
+
+</body>
+</html>
