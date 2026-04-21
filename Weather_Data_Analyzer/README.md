@@ -1,6 +1,6 @@
 # Weather Data Analyzer & Forecast Dashboard
 
-A simple Python-based application that fetches weather data, stores it, and provides basic analysis and predictions.
+A simple Python-based application that fetches weather data, and provides basic analysis and predictions.
 
 ---
 
@@ -82,11 +82,13 @@ Enter a city name to view weather details, trends, and prediction.
 
 ### Home Page
 
-(Add screenshot here)
+<img width="1907" height="681" alt="Screenshot 2026-04-21 112958" src="https://github.com/user-attachments/assets/0f121e81-b546-4f5f-89bc-f966bb07d3a5" />
+
 
 ### Result Page
 
-(Add screenshot here)
+<img width="1899" height="888" alt="image" src="https://github.com/user-attachments/assets/61fd1605-151f-4fe5-91a9-137064ac73c7" />
+
 
 ---
 
@@ -99,28 +101,3 @@ Enter a city name to view weather details, trends, and prediction.
 5. A simple prediction is made using past values
 
 ---
-
-## Limitations
-
-* Prediction is basic and intended for learning purposes
-* Requires multiple entries to generate meaningful graphs
-* API key activation may take a few minutes
-
----
-
-## Future Improvements
-
-* Add humidity trend visualization
-* Improve user interface
-* Use more advanced prediction models
-* Add multi-day forecasting
-
----
-
-## Author
-
-Vyshnavi Pola
-
----
-
-This project was developed as part of a learning exercise to understand APIs, databases, and basic data analysis using Python.
