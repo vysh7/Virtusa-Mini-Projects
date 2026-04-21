@@ -32,35 +32,13 @@ This project focuses on analyzing weather data instead of just displaying it. It
 
 ---
 
-## Installation & Setup
+## How to Run
 
-1. Clone the repository:
-
-```
-git clone <your-repo-link>
-```
-
-2. Navigate to the project folder:
-
-```
-cd weather-dashboard
-```
-
-3. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-4. Add your API key in `weather_api.py`:
+Add your API key in `weather_api.py`:
 
 ```
 API_KEY = "your_api_key_here"
 ```
-
----
-
-## How to Run
 
 Run the application using:
 
